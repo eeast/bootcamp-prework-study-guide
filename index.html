@@ -12,7 +12,102 @@
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
     <main>
-      <!-- Student code goes here -->
+
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+        <h3>The Basics</h3>
+        <ul>
+          <li>HTML is used to create the structure of a webpage.</li>
+          <li>Webpages are made up of elements which work together to provide content and the basic framework for all pages on the web.</li>
+          <li>An element is a type of content on a webpage.</li>
+          <li>Common element types used to add content to a page include "Text", "Image", "Header" and "List" elements.</li>
+          <li>Common element types used to divide and describe a page include "Meta-related", "Content Division", and "Semantic" elements</li>
+          <li>The head element contains information about the webpage.</li>
+          <li>The body element represents the visible content shown to the user.</li>
+          <li>Section elements are semantic elements that define a section in a document that contains thematic content.</li>
+          <li>"Elements" refers to the entire element from opening tag to closing tag.</li>
+          <li>"Tag" refers only to what appears inside the angle brackets at the start and end of an element.</li>
+        </ul>
+        <h3>Common Elements</h3>
+        <ul>
+          <li><code>&lt;html&gt;</code> - represents the root, or start, of our HTML document. Generally includes the <code>lang</code> metadata element.</li>
+          <li><code>&lt;head&gt;</code> - contains information (metadata other than <code>lang</code>) that helps the browser to render the page correctly. Elements included within this element are not visible when a user looks at a webpage.</li>
+          <li><code>&lt;title&gt;</code> - defines the title for the webpage. This element is required and is extremely important for SEO.</li>
+          <li><code>&lt;style&gt;</code> - defines the CSS styles associated with a website.</li>
+          <li><code>&lt;base&gt;</code> - defines the base URL for a webpage.</li>
+          <li><code>&lt;link&gt;</code> - connects an external resource to the HTML document.</li>
+          <li><code>&lt;meta&gt;</code> - defines metadata such as the character set, description, keywords, author, and viewport.</li>
+          <li><code>&lt;script&gt;</code> - embeds client-side scripts in the HTML document.</li>
+          <li><code>&lt;body&gt;</code> - contains the content that is shown to the user. All the elements that we want the user to see and interact with must be inside this element.</li>
+          <li><code>&lt;div&gt;</code> - used to create a division in the page.</li>
+          <li><code>&lt;span&gt;</code> - used to create an inline division.</li>
+          <li><code>&lt;br&gt;</code> - used to create a line of empty space, or a line break, between two blocks of content.</li>
+          <li><code>&lt;p&gt;</code> - represents a paragraph of block of text.</li>
+          <li><code>&lt;ul&gt;</code> - represents an <strong>unordered</strong> list; each item is led by a bullet point.</li>
+          <li><code>&lt;ol&gt;</code> - represents an <strong>ordered</strong> list; each element is led by a number, in sequential order.</li>
+          <li><code>&lt;li&gt;</code> - represents an item in either an ordered or unordered list.</li>
+          <li><code>&lt;img&gt;</code> - contains information about images that are displayed on the webpage. Attributes typically include at least: <code>src</code>, <code>alt</code>, <code>width</code>, and <code>height</code>.</li>
+        </ul>
+        <h3>Metadata Elements</h3>
+        <ul>
+          <li><code>lang</code> - tells the browser the language for the webpage ("en" for English)</li>
+          <li><code>charset</code> - sets our character encoding (UTF-8 is most common).</li>
+          <li><code>http-equiv</code> - sets an HTTP header for content.</li>
+          <li><code>viewport</code> - sets the default view for our webpage.</li>
+          <li><code>src</code> - defines the location of the image to be shown.</li>
+          <li><code>alt</code> - provides alternative text to be shown when an image can not be loaded.</li>
+          <li><code>width</code> - sets the image width in pixels on the webpage.</li>
+          <li><code>height</code> - sets the image height in pixels on the webpage.</li>
+        </ul>
+      </section>
+
+      <br>
+      
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+          <li>Enter your CSS notes here</li>
+        </ul>
+      </section>
+      
+      <br>
+      
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <h3>The Basics</h3>
+        <ul>
+          <li>Git is frequently used in software development to facilitate sharing of code and implementation of version control.</li>
+          <li>This process is preserved through the Git Workflow, which uses branches as working areas for making simultaneous changes to code.</li>
+          <li>Each branch should be properly labeled with a detailed title identifying what the object for a particular branch is.</li>
+          <li>When changes have been completed, this branch can be pushed safely to the Git repository, where it can be flagged for review and safely merged into the main (sometimes called "master" branch).</li>
+          <li>It is important to pull often from the Git source to ensure any changes made to the main branch are reflected in your working branch.</li>
+        </ul>
+        <h3>Git Commands</h3>
+        <ul>
+          <li><code>git status</code> - returns the current working branch and any changes reflected on the local machine.</li>
+          <li><code>git checkout -b [branch-name]</code> - moves the current working branch to a new branch.</li>
+          <li><code>git add -A</code> - adds any modification in the current working branch to the staging area.</li>
+          <li><code>git commit -m "message"</code> - commits changes in the staging area to the repository.</li>
+          <li><code>git pull origin [branch-name]</code> - pulls changes from the branch on the repository to the local machine.</li>
+          <li><code>git push origin [branch-name]</code> - pushes changes from the local machine to the branch on the repository.</li>
+        </ul>
+        <h3>Git Flags</h3>
+        <ul>
+          <li><code>-b</code> - indicates a branch; followed by the branch name, i.e. "feature/add-html".</li>
+          <li><code>-A</code> - indicates "All", i.e. <code>git add -A</code> would add all changes to the staging area.</li>
+          <li><code>-m</code> - indicates a message; followed by the message content, i.e. "added html" </li>
+        </ul>
+      </section>
+
+      <br>
+
+      <section class="card" id="javascript-section">
+        <h2>JavaScript</h2>
+        <ul>
+          <li>Enter your JavaScript notes here</li>
+        </ul>
+      </section>
+
     </main>
 
     <footer>
