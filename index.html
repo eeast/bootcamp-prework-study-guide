@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -28,6 +29,7 @@
           <li>"Elements" refers to the entire element from opening tag to closing tag.</li>
           <li>"Tag" refers only to what appears inside the angle brackets at the start and end of an element.</li>
         </ul>
+        <br>
         <h3>Common Elements</h3>
         <ul>
           <li><code>&lt;html&gt;</code> - represents the root, or start, of our HTML document. Generally includes the <code>lang</code> metadata element.</li>
@@ -48,6 +50,7 @@
           <li><code>&lt;li&gt;</code> - represents an item in either an ordered or unordered list.</li>
           <li><code>&lt;img&gt;</code> - contains information about images that are displayed on the webpage. Attributes typically include at least: <code>src</code>, <code>alt</code>, <code>width</code>, and <code>height</code>.</li>
         </ul>
+        <br>
         <h3>Metadata Elements</h3>
         <ul>
           <li><code>lang</code> - tells the browser the language for the webpage ("en" for English)</li>
@@ -65,8 +68,19 @@
       
       <section class="card" id="css-section">
         <h2>CSS</h2>
+        <h3>The Basics</h3>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>There are three ways to style a webpage using CSS: inline CSS, internal CSS style sheet, and external CSS style sheet.</li>
+          <li>CSS contains two main parts: the Selector, and the Declarations. The Declaration contains two parts: the Property, and the Value. (<code>sel {property: value;}</code>)</li>
+          <li>External CSS style sheets are the preferred way for adding CSS to a webpage. This allows for "Separation of Concerns", or limiting each file to one aspect of the webpage.</li>
+          <li></li>
+        </ul>
+        <br>
+        <h3>CSS Properties</h3>
+        <ul>
+          <li><code>color:</code> - changes the color of the selected item. Accepts words of common colors, such as "<code>blue</code>".</li>
+          <li><code>margin:</code> - indicates how much space we want around the <strong>outside</strong> of an element.</li>
+          <li><code>padding:</code> - indicates how much space we want around the content <strong>inside</strong> the element.</li>
         </ul>
       </section>
       
@@ -82,6 +96,7 @@
           <li>When changes have been completed, this branch can be pushed safely to the Git repository, where it can be flagged for review and safely merged into the main (sometimes called "master" branch).</li>
           <li>It is important to pull often from the Git source to ensure any changes made to the main branch are reflected in your working branch.</li>
         </ul>
+        <br>
         <h3>Git Commands</h3>
         <ul>
           <li><code>git status</code> - returns the current working branch and any changes reflected on the local machine.</li>
@@ -91,6 +106,7 @@
           <li><code>git pull origin [branch-name]</code> - pulls changes from the branch on the repository to the local machine.</li>
           <li><code>git push origin [branch-name]</code> - pushes changes from the local machine to the branch on the repository.</li>
         </ul>
+        <br>
         <h3>Git Flags</h3>
         <ul>
           <li><code>-b</code> - indicates a branch; followed by the branch name, i.e. "feature/add-html".</li>
