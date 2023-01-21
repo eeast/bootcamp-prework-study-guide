@@ -71,13 +71,13 @@
         <h2>CSS</h2>
         <h3>The Basics</h3>
         <ul>
+          <li>CSS (Cascading Style Sheet) is a common way to add color, structure, and other formatting to a webpage.</li>
           <li>There are three ways to style a webpage using CSS: inline CSS, internal CSS style sheet, and external CSS style sheet.</li>
           <li>CSS contains two main parts: the Selector, and the Declarations. The Declaration contains two parts: the Property, and the Value. (<code>sel {property: value;}</code>)</li>
           <li>External CSS style sheets are the preferred way for adding CSS to a webpage. This allows for "Separation of Concerns", or limiting each file to one aspect of the webpage.</li>
-          <li></li>
         </ul>
         <br>
-        <h3>CSS Properties</h3>
+        <h3>Common CSS Properties</h3>
         <ul>
           <li><code>color:</code> - changes the color of the selected item. Accepts words of common colors, such as "<code>blue</code>".</li>
           <li><code>margin:</code> - indicates how much space we want around the <strong>outside</strong> of an element.</li>
@@ -98,7 +98,7 @@
           <li>It is important to pull often from the Git source to ensure any changes made to the main branch are reflected in your working branch.</li>
         </ul>
         <br>
-        <h3>Git Commands</h3>
+        <h3>Common Git Commands</h3>
         <ul>
           <li><code>git status</code> - returns the current working branch and any changes reflected on the local machine.</li>
           <li><code>git checkout -b [branch-name]</code> - moves the current working branch to a new branch.</li>
@@ -108,7 +108,7 @@
           <li><code>git push origin [branch-name]</code> - pushes changes from the local machine to the branch on the repository.</li>
         </ul>
         <br>
-        <h3>Git Flags</h3>
+        <h3>Common Git Flags</h3>
         <ul>
           <li><code>-b</code> - indicates a branch; followed by the branch name, i.e. "feature/add-html".</li>
           <li><code>-A</code> - indicates "All", i.e. <code>git add -A</code> would add all changes to the staging area.</li>
@@ -120,8 +120,42 @@
 
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
+        <h3>The Basics</h3>
         <ul>
-          <li>Enter your JavaScript notes here</li>
+          <li>JavaScript is a commonly used scripting language for adding functionality to a webpage.</li>
+          <li>Through the use of JS, you can add impressively complex computations and functionality that makes a webpage significantly more engaging.</li>
+          <li>The starting building blocks of JavaScript are variables, loops, and functions.</li>
+          <li>There are many different <strong>data types</strong> that a variable can be. Also, JS does not require a variable to have a declared type; rather, the data type is assigned <strong>based on the value</strong> saved.</li>
+          <li>Loops allow us to repeat lines of code in succesion. This is particularly useful when using an <strong>incrementing variable</strong> in a data structure such as an <strong>array</strong>.</li>
+          <li>Functions can be defined in our code, and allow us to run a specific subset of code at any time by using the <strong>Function Call</strong>.</li>
+        </ul>
+        <br>
+        <h3>Common Variable Types</h3>
+        <ul>
+          <li><code>String</code> - A string of text; must be surrounded by double quotation marks (" ").</li>
+          <li><code>Number</code> - Any integer less than the max integer limit (9007199254740991).</li>
+          <li><code>Bigint</code> - An integer larger than the max integer limit.</li>
+          <li><code>Boolean</code> - A simple data type that contains either <code>true</code> or <code>false</code>.</li>
+          <li><code>Undefined</code> - Default data type for variables that have not been initialized or are missing another default value.</li>
+          <li><code>Null</code> - Represents the absense of data; Not zero, but nothing. Zero is something.</li>
+          <li><code>Symbol</code> - A specific data type that's guaranteed to be unique.</li>
+          <li><code>Object</code> - A standalone entity, with properties and type.</li>
+        </ul>
+        <br>
+        <h3>Function Basics</h3>
+        <ul>
+          <li>There are many terms used with functions that are common between languages that use functions, such as:
+            <ul>
+              <li>"Name" - the name given to the function. This will be used to call the function later.</li>
+              <li>"Call" - term used to describe the invocation of a function. This is done by typing the function name and any required arguments after the function has been defined.</li>
+              <li>"Definition" - the original declaration and creation of the function. Must be placed first in the code before any function calls.</li>
+              <li>"Argument(s)" - Variables that are included in the parentheses of a function call. Are specified in the function definition.</li>
+            </ul>
+          </li>
+          <li>Functions must be declared as such with the <code>function</code> keyword.</li>
+          <li>Functions must include parentheses after the function name (i.e. <code>function myFunction() {} ).</code></li>
+          <li>Arguments can be specified in the function definition, and will be required to be passed in for every function call.</li>
+          <li></li>
         </ul>
       </section>
 
